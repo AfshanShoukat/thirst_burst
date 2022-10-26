@@ -1,3 +1,5 @@
+
+using thirst_burst.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -8,6 +10,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using thirst_burst.Model;
+using System.Text.Json;
+using Microsoft.AspNetCore.Http;
 
 namespace thirst_burst
 {
@@ -24,6 +29,7 @@ namespace thirst_burst
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddTransient<JsonFileDrinkService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,7 +55,14 @@ namespace thirst_burst
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+            endpoints.MapRazorPages();
+                endpoints.MapGet("/DrinkRecords", (context) =>
+                {
+                    IEnumerable<Drink> DrinkRecord = app.ApplicationServices.GetService<JsonFileDrinkService>().getDrinkRecords();
+                    string NewDrinkRecord=JsonSerializer.Serialize < IEnumerable<Drink>>(DrinkRecord);
+                    return context.Response.WriteAsync(NewDrinkRecord);
+
+                });
             });
         }
     }

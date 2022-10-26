@@ -1,0 +1,27 @@
+[
+    {
+        "id" : 1,
+        "name" : "Soft_Drinks",
+        "price" : "Rs.761/_"
+    },
+    {
+        "id" : 2,
+        "name" : "Juices",
+        "price" : "Rs.196/_"
+    },
+    {
+        "id" : 3,
+        "name" : "Sparkling_Drinks",
+        "price" : "Rs.696/_"
+    },
+    {
+        "id" : 4,
+        "name" : "Coffee",
+        "price" : "Rs.350/_"
+    },
+    {
+        "id" : 5,
+        "name" : "Water",
+        "price" : "Rs.67/_"
+    }
+]
