@@ -1,27 +1,52 @@
 [
-    {
-        "id" : 1,
-        "name" : "Soft_Drinks",
-        "price" : "Rs.761/_"
-    },
-    {
-        "id" : 2,
-        "name" : "Juices",
-        "price" : "Rs.196/_"
-    },
-    {
-        "id" : 3,
-        "name" : "Sparkling_Drinks",
-        "price" : "Rs.696/_"
-    },
-    {
-        "id" : 4,
-        "name" : "Coffee",
-        "price" : "Rs.350/_"
-    },
-    {
-        "id" : 5,
-        "name" : "Water",
-        "price" : "Rs.67/_"
-    }
+  {
+    "id": 1,
+    "name": "Water",
+    "image": "https://i.pinimg.com/originals/b2/a0/f5/b2a0f528baf4fb6e58d78973d3328d98.png"
+  },
+  {
+    "id": 2,
+    "name": "Plan Milk",
+    "image": "https://static-01.daraz.pk/p/7be97abb15790de447e661520aebdc1e.png"
+  },
+  {
+    "id": 3,
+    "name": "Flavored Milk",
+    "image": "https://img.freepik.com/free-vector/carton-box-with-almond-milk_1268-15470.jpg?w=2000"
+  },
+  {
+    "id": 4,
+    "name": "Tea",
+    "image": "https://w0.peakpx.com/wallpaper/807/290/HD-wallpaper-tea-time-cup-hot-tea-abstract.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Coffee",
+    "image": "https://images.unsplash.com/photo-1587080413959-06b859fb107d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29mZmVlJTIwY3VwfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Soft Drinks",
+    "image": "https://c8.alamy.com/comp/MGCHDE/poznan-poland-apr-6-2018-bottles-of-global-soft-drink-brands-including-products-of-coca-cola-company-and-pepsico-MGCHDE.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Sparkling Drinks",
+    "image": "https://mir-s3-cdn-cf.behance.net/project_modules/1400/9efa14129526549.616d53b714501.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Juices",
+    "image": ""
+  },
+  {
+    "id": 9,
+    "name": "Fresh Juices",
+    "image": "https://c8.alamy.com/comp/BW4J01/full-glass-of-fresh-orange-juice-and-fruit-slice-near-it-isolated-BW4J01.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Shakes",
+    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWlsayUyMHNoYWtlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+  }
 ]

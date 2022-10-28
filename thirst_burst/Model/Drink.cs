@@ -17,8 +17,8 @@ namespace thirst_burst.Model
         {
             get; set;
         }
-        [JsonPropertyName("price")]
-        public string price
+        [JsonPropertyName("image")]
+        public string image
         {
             get; set;
         }
