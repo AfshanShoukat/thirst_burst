@@ -29,6 +29,7 @@ namespace thirst_burst
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllers();
             services.AddTransient<JsonFileDrinkService>();
         }
 
@@ -55,16 +56,12 @@ namespace thirst_burst
 
             app.UseEndpoints(endpoints =>
             {
-            endpoints.MapRazorPages();
-                // Event Handlers
-                endpoints.MapGet("/DrinkRecord", (context) =>
-                {
-                    IEnumerable<Drink> DrinkRecord = app.ApplicationServices.GetService<JsonFileDrinkService>().getDrinkRecords();
-                    string NewDrinkRecord=JsonSerializer.Serialize < IEnumerable<Drink>>(DrinkRecord);
-                    return context.Response.WriteAsync(NewDrinkRecord);
-
-                });
+                endpoints.MapRazorPages();
+                endpoints.MapControllers();
+                
             });
         }
     }
 }
+
+
