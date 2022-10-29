@@ -8,7 +8,7 @@ using thirst_burst.Model;
 
 namespace Thirst_Burst.Controllers
 {
-    [Route("/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class DrinksController : ControllerBase
     {

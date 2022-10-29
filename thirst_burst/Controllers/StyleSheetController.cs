@@ -4,7 +4,7 @@ using Thirst_Burst.Services;
 
 namespace Thirst_Burst.Controllers
 {
-    [Route("/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class StyleSheetController : ControllerBase
     {

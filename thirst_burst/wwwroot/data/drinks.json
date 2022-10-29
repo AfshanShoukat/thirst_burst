@@ -1,4 +1,5 @@
 [
+  
   {
     "id": 1,
     "name": "Water",
@@ -22,7 +23,7 @@
   {
     "id": 5,
     "name": "Coffee",
-    "image": "https://images.squarespace-cdn.com/content/v1/590b46bca5790a517c97f311/1602699362636-OJJJ9FG7R51OUVACM60K/website+1.jpg?format=750w"
+    "image": "https://images.squarespace-cdn.com/content/v1/590b46bca5790a517c97f311/1602699362636-OJJJ9FG7R51OUVACM60K/website\u002B1.jpg?format=750w"
   },
   {
     "id": 6,
@@ -37,7 +38,7 @@
   {
     "id": 8,
     "name": "Juices",
-    "image": "https://graphicriver.img.customer.envatousercontent.com/files/186990325/preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=48949cdbfe37384a822be282e7e28e5e"
+    "image": "https://graphicriver.img.customer.envatousercontent.com/files/186990325/preview.jpg?auto=compress%2Cformat\u0026fit=crop\u0026crop=top\u0026w=590\u0026h=590\u0026s=48949cdbfe37384a822be282e7e28e5e"
   },
   {
     "id": 9,

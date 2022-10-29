@@ -23,16 +23,24 @@ namespace thirst_burst.Services
         {
             get
             {
-                return Path.Combine(WebHostEnvironment.WebRootPath, "data","drinks.json");
+                return Path.Combine(WebHostEnvironment.WebRootPath, "data", "drinks.json");
             }
         }
 
         public IEnumerable<Drink> getDrinkRecords()
         {
-            using(var file=File.OpenText(filePath))
+            using (var file = File.OpenText(filePath))
             {
                 return JsonSerializer.Deserialize<Drink[]>(file.ReadToEnd());
             }
+        }
+
+        public void setDrinkRecords(string finalData)
+        {
+            StreamWriter file_stream = new StreamWriter(filePath);
+            file_stream.Write(finalData);
+            file_stream.Flush();
+            file_stream.Close();
         }
     }
 }
