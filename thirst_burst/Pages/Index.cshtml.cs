@@ -12,20 +12,16 @@ namespace thirst_burst.Pages
 {
     public class IndexModel : PageModel
     {
-        public IEnumerable<Drink> Drinks { get; private set; }
-        public JsonFileDrinkService DrinkService;
+       
         private readonly ILogger<IndexModel> _logger;
 
-        public IndexModel(ILogger<IndexModel> logger,
-            JsonFileDrinkService drinkService)
+        public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
-            DrinkService = drinkService;
         }
 
         public void OnGet()
         {
-            Drinks = DrinkService.getDrinkRecords();
         }
     }
 }

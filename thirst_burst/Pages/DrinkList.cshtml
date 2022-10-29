@@ -1,0 +1,22 @@
+﻿@page
+@model Thirst_Burst.Pages.DrinkListModel
+@{
+    ViewData["Title"] = "Drink List";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Thirst Burst</h1>
+</div>
+<div class="row">
+    @foreach(var drink in Model.Drinks)
+    {
+        <div id="drinkContainer" class="col-lg-3 col-md-4 col-sm-12" >
+            <img id="drinkImage" src="@drink.image" alt="@drink.name" />
+            <span id="drinkTitle">@drink.name</span>
+            <span id="drinkPrice">Rs. Coming Soon</span>
+            <span><input id="drinkQuantity"  type="number" name="Quantity" value="" placeholder="0"/></span>
+            <span><button id="cartButton" type="button"><span class="fa fa-shopping-cart" ></span>Add to Cart</button></span>
+        </div>
+    }
+    
+</div>

@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using thirst_burst.Model;
 using System.Text.Json;
 using Microsoft.AspNetCore.Http;
+using Thirst_Burst.Services;
 
 namespace thirst_burst
 {
@@ -31,6 +32,7 @@ namespace thirst_burst
             services.AddRazorPages();
             services.AddControllers();
             services.AddTransient<JsonFileDrinkService>();
+            services.AddTransient<StylesheetService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,7 +60,6 @@ namespace thirst_burst
             {
                 endpoints.MapRazorPages();
                 endpoints.MapControllers();
-                
             });
         }
     }
