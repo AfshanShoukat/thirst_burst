@@ -56,7 +56,8 @@ namespace thirst_burst
             app.UseEndpoints(endpoints =>
             {
             endpoints.MapRazorPages();
-                endpoints.MapGet("/DrinkRecords", (context) =>
+                // Event Handlers
+                endpoints.MapGet("/DrinkRecord", (context) =>
                 {
                     IEnumerable<Drink> DrinkRecord = app.ApplicationServices.GetService<JsonFileDrinkService>().getDrinkRecords();
                     string NewDrinkRecord=JsonSerializer.Serialize < IEnumerable<Drink>>(DrinkRecord);

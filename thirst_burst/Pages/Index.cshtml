@@ -6,12 +6,18 @@
 
 <div class="text-center">
     <h1 class="display-4">Thirst Burst</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
-
-@foreach (var drink in Model.Drinks)
-{
-    <h3>@drink.name</h3>
-    <h4>@drink.image</h4>
-}
+<div class="row">
+    @foreach(var drink in Model.Drinks)
+    {
+        <div id="drinkContainer" class="col-lg-3 col-md-4 col-sm-12" >
+            <img id="drinkImage" src="@drink.image" alt="@drink.name" />
+            <span id="drinkTitle">@drink.name</span>
+            <span id="drinkPrice">Rs. Coming Soon</span>
+            <span><input id="drinkQuantity"  type="number" name="Quantity" value="" placeholder="0"/></span>
+            <span><button id="cartButton" type="button"><span class="glyphicon glyphicon-shopping-cart" ></span>Add to Cart</button></span>
+        </div>
+    }
+    
+</div>
 

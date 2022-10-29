@@ -2,12 +2,12 @@
   {
     "id": 1,
     "name": "Water",
-    "image": "https://i.pinimg.com/originals/b2/a0/f5/b2a0f528baf4fb6e58d78973d3328d98.png"
+    "image": "https://i.pinimg.com/736x/89/9d/c0/899dc0f8af49cec2c1e78ffeb1d0e3eb.jpg"
   },
   {
     "id": 2,
     "name": "Plan Milk",
-    "image": "https://static-01.daraz.pk/p/7be97abb15790de447e661520aebdc1e.png"
+    "image": "https://img.freepik.com/free-psd/milk-bottle-packaging-mockup_439185-1193.jpg?w=2000"
   },
   {
     "id": 3,
@@ -22,7 +22,7 @@
   {
     "id": 5,
     "name": "Coffee",
-    "image": "https://images.unsplash.com/photo-1587080413959-06b859fb107d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y29mZmVlJTIwY3VwfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+    "image": "https://images.squarespace-cdn.com/content/v1/590b46bca5790a517c97f311/1602699362636-OJJJ9FG7R51OUVACM60K/website+1.jpg?format=750w"
   },
   {
     "id": 6,
@@ -37,16 +37,16 @@
   {
     "id": 8,
     "name": "Juices",
-    "image": ""
+    "image": "https://graphicriver.img.customer.envatousercontent.com/files/186990325/preview.jpg?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=590&s=48949cdbfe37384a822be282e7e28e5e"
   },
   {
     "id": 9,
     "name": "Fresh Juices",
-    "image": "https://c8.alamy.com/comp/BW4J01/full-glass-of-fresh-orange-juice-and-fruit-slice-near-it-isolated-BW4J01.jpg"
+    "image": "https://thumbs.dreamstime.com/b/orange-juice-17172744.jpg"
   },
   {
     "id": 10,
     "name": "Shakes",
-    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWlsayUyMHNoYWtlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+    "image": "https://st.depositphotos.com/1592454/5117/i/600/depositphotos_51176853-stock-photo-milkshake-chocolate-coffee.jpg"
   }
 ]
