@@ -17,7 +17,7 @@ namespace Thirst_Burst.Services
         {
             get
             {
-                return Path.Combine(WebHostEnvironment.WebRootPath, "StyleSheet1.css");
+                return Path.Combine(WebHostEnvironment.WebRootPath, "css", "site.css");
             }
         }
 

@@ -14,9 +14,9 @@ namespace Thirst_Burst.Controllers
             this.SheetService = sheetService;
         }
         [HttpGet]
-        public string Get()
+        public ContentResult Get()
         {
-            return SheetService.getSheetRecords();
+            return Content(SheetService.getSheetRecords(), "text/css");
         }
 
     }
